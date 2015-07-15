@@ -81,7 +81,7 @@ public class Snake extends JFrame {
 			public void mouseClicked(MouseEvent e) {
 				if(e.getSource().equals(gitHub)){
 					try {
-						Desktop.getDesktop().browse(new URI("https://github.com/ZaidZerdo/W9D3/blob/master/MyList.java"));
+						Desktop.getDesktop().browse(new URI("https://github.com/AdnanLapendic/FatSnake"));
 					} catch (IOException e1) {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
